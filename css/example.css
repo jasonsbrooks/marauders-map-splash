@@ -1,0 +1,117 @@
+.wrap{
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    position: relative;
+}
+h1{
+    font-size: 5em;        
+    font-family: arial,helvetica;
+}
+h2{
+	font-size: 30px;
+	margin-top: -35px;
+	font-family: arial, helvetica;
+}
+
+h3{
+	padding-top: 5px;
+	font-size: 18px;
+	font-style: italic;
+	font-family: arial, helvetica;
+}
+
+.section{
+    text-align:center;
+}
+
+#section0{
+	background-size: cover;
+	background-image: url(../img/map.jpg);
+}
+
+#section3{
+	background-size: cover;
+	background-image: url(../img/newhaven.png);
+}
+
+.mapText{
+	background: rgba(0,0,0,0.3);
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: -400px;
+	padding-bottom: 4px;
+	color: #BABABA;
+	border-radius: 5px;
+}
+
+.pagelink{
+	text-align: left;
+    font-size: 5em;        
+    font-family: arial,helvetica;
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding-bottom: 50px;
+}
+
+.email{
+	color: #BABABA;
+	text-decoration: none;
+}
+
+.email:hover{
+	color: #777;
+	text-decoration: none;
+}
+.email:visited{
+	color: #BABABA;
+	text-decoration: none;
+}
+
+.pagelink:hover{
+	color: #777;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #777;
+}
+
+.resources{
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+}
+
+.center{
+	text-align: center;
+}
+
+.video-center{
+	margin: 0 auto;
+	width: 900px;
+	-moz-box-shadow: 0 0 19px #fff;
+	-webkit-box-shadow: 0 0 19px #fff;
+	box-shadow: 0 0 19px #fff;
+}
+
+#macInformation{
+	background: rgba(0,0,0,0.5);
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: -100px;
+	padding-top: 2px;
+	border-radius: 7px;
+	color: #E0E0E0;
+}
+
+
+input{
+	font-size: 40px;
+	background-color: rgba(0,0,0,0.25);
+}

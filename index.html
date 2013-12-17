@@ -12,6 +12,7 @@
         
         <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
         <link rel="stylesheet" type="text/css" href="css/example.css" />
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
 
         <!--[if IE]>
                 <script type="text/javascript">
@@ -28,10 +29,10 @@
                 $(document).ready(function() {
                         $.fn.fullpage({
                                 slidesColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke'],
-                                anchors: ['titlePage', 'macPage', 'paperPage', 'vidPage'],
+                                anchors: ['titlePage', 'vidPage', 'paperPage', 'paperPage'],
                                 navigation: true,
                                 navigationPosition: 'right',
-                                navigationTooltips: ['Home', 'Video', 'White Paper', 'Mac Address Lookup'],
+                                navigationTooltips: ['Home', 'Video', 'White Paper', 'MAC Address Lookup'],
                                 resize: true,
                                 easing: 'linear',
                                 scrollingSpeed: 400,
@@ -65,8 +66,8 @@
 </div>
 <div class="section" id="section3">
     <div id="macInformation">
-        <h1>Enter a MAC address <br />to see your activity:</h1>
-        <input id="macAddress" type="text" name="mAddress" >
+        <h1 class="light-font">Enter a MAC address <br />to see your activity:</h1>
+        <input id="macAddress" class="light-font" type="text" name="mAddress" max-length='17' >
     </div>
 </div>
 </body>
